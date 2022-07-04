@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: coral;
+    padding: 30px 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.list-video::-webkit-scrollbar{
+    width: 10px;
+}
+.list-video::-webkit-scrollbar-track{
+    border-radius: 5px;
+    background-color: #fff;
+}
+.list-video::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #444;
+}
